@@ -1,5 +1,7 @@
 import React from 'react';
 import Articulos from '../components/articlulos';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CrearArticulo from '../components/crearArticulo';
 
 function App() {
   return (
@@ -7,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <CrearArticulo></CrearArticulo>
         <Articulos></Articulos>
     </div>
   );
